@@ -1,0 +1,880 @@
+[
+	{
+		"id": "a1b2c3d4",
+		"title": "Appartement moderne avec vue",
+		"cover": "https://images.unsplash.com/photo-1600585154340-be6161c4d5b4",
+		"pictures": [
+			"https://images.unsplash.com/photo-1600585154340-be6161c4d5b4",
+			"https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+			"https://images.unsplash.com/photo-1560185007-b7d5b24a1099",
+			"https://images.unsplash.com/photo-1502672023488-70e25813eb80"
+		],
+		"description": "Appartement lumineux avec une superbe vue sur la ville. Idéal pour les voyages d'affaires ou les séjours touristiques.",
+		"host": {
+			"name": "Alice Dupont",
+			"picture": "https://images.unsplash.com/photo-1600585154340-be6161c4d5b4"
+		},
+		"rating": "4",
+		"location": "Paris 15e, France",
+		"equipments": [
+			"Wi-fi",
+			"Cuisine équipée",
+			"Télévision",
+			"Sèche Cheveux"
+		],
+		"tags": [
+			"Moderne",
+			"Vue sur la ville"
+		]
+	},
+	{
+		"id": "b2c3d4e5",
+		"title": "Loft industriel en centre-ville",
+		"cover": "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+		"pictures": [
+			"https://images.unsplash.com/photo-1554995207-c18c203602cb",
+			"https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+			"https://images.unsplash.com/photo-1584674501078-22d8c959fa30"
+		],
+		"description": "Loft spacieux et élégant au style industriel. Situé au cœur de la ville avec accès facile aux transports.",
+		"host": {
+			"name": "Maxime Martin",
+			"picture": "https://images.unsplash.com/photo-1554995207-c18c203602cb"
+		},
+		"rating": "5",
+		"location": "Lyon, France",
+		"equipments": [
+			"Parking",
+			"Machine à laver",
+			"Climatisation",
+			"Wi-fi"
+		],
+		"tags": [
+			"Industriel",
+			"Centre-ville",
+			"Loft"
+		]
+	},
+	{
+		"id": "c3d4e5f6",
+		"title": "Studio cosy à proximité des plages",
+		"cover": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+		"pictures": [
+			"https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+			"https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+			"https://images.unsplash.com/photo-1552650272-b8a34e21bc4b",
+			"https://images.unsplash.com/photo-1570129477492-45c003edd2be"
+		],
+		"description": "Charmant studio situé à quelques minutes de la plage, idéal pour un séjour en bord de mer.",
+		"host": {
+			"name": "Emma Leroy",
+			"picture": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750"
+		},
+		"rating": "3",
+		"location": "Nice, France",
+		"equipments": [
+			"Wi-fi",
+			"Cuisine équipée",
+			"Douche italienne"
+		],
+		"tags": [
+			"Plage",
+			"Cosy",
+			"Studio"
+		]
+	},
+    
+        {
+            "id": "d1e2f3g4",
+            "title": "Appartement design avec vue sur la mer",
+            "cover": "https://images.unsplash.com/photo-1505691723518-41cb372ffb9f",
+            "pictures": [
+                "https://images.unsplash.com/photo-1505691723518-41cb372ffb9f",
+                "https://images.unsplash.com/photo-1505692794401-6a7722d68a43",
+                "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+            ],
+            "description": "Appartement moderne avec une vue imprenable sur la mer, parfait pour des vacances relaxantes.",
+            "host": {
+                "name": "Lucas Henry",
+                "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+            },
+            "rating": "5",
+            "location": "Marseille, France",
+            "equipments": [
+                "Wi-fi",
+                "Balcon",
+                "Télévision",
+                "Sèche Cheveux"
+            ],
+            "tags": [
+                "Vue sur mer",
+                "Moderne"
+            ]
+        },
+        {
+            "id": "e2f3g4h5",
+            "title": "Maison chaleureuse à la campagne",
+            "cover": "https://images.unsplash.com/photo-1580590989161-95abb0f3b2ec",
+            "pictures": [
+                "https://images.unsplash.com/photo-1580590989161-95abb0f3b2ec",
+                "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                "https://images.unsplash.com/photo-1574170846146-0e6e0f2204e4"
+            ],
+            "description": "Maison spacieuse et chaleureuse située en pleine nature pour un séjour paisible.",
+            "host": {
+                "name": "Marie Dupont",
+                "picture": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+            },
+            "rating": "4",
+            "location": "Bordeaux, France",
+            "equipments": [
+                "Cheminée",
+                "Parking gratuit",
+                "Wi-fi",
+                "Cuisine équipée"
+            ],
+            "tags": [
+                "Campagne",
+                "Rustique"
+            ]
+        },
+        {
+            "id": "f3g4h5i6",
+            "title": "Studio moderne proche des commodités",
+            "cover": "https://images.unsplash.com/photo-1600585154340-be6161c4d5b4",
+            "pictures": [
+                "https://images.unsplash.com/photo-1600585154340-be6161c4d5b4",
+                "https://images.unsplash.com/photo-1553456558-aff63285bddf",
+                "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
+            ],
+            "description": "Studio confortable et moderne, idéalement situé à proximité des transports et commerces.",
+            "host": {
+                "name": "David Leroy",
+                "picture": "https://images.unsplash.com/photo-1517841905240-472988babdf9"
+            },
+            "rating": "4",
+            "location": "Lille, France",
+            "equipments": [
+                "Wi-fi",
+                "Cuisine équipée",
+                "Lave-linge"
+            ],
+            "tags": [
+                "Studio",
+                "Moderne",
+                "Centre-ville"
+            ]
+        },
+        {
+            "id": "g4h5i6j7",
+            "title": "Villa spacieuse avec piscine",
+            "cover": "https://images.unsplash.com/photo-1582719478171-8b00c4a1e188",
+            "pictures": [
+                "https://images.unsplash.com/photo-1582719478171-8b00c4a1e188",
+                "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+                "https://images.unsplash.com/photo-1600585154340-be6161c4d5b4"
+            ],
+            "description": "Villa luxueuse avec piscine privée, idéale pour des vacances en famille ou entre amis.",
+            "host": {
+                "name": "Emma Caron",
+                "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+            },
+            "rating": "5",
+            "location": "Nice, France",
+            "equipments": [
+                "Piscine",
+                "Wi-fi",
+                "Cuisine équipée",
+                "Climatisation"
+            ],
+            "tags": [
+                "Villa",
+                "Piscine",
+                "Famille"
+            ]
+        },
+        {
+            "id": "h5i6j7k8",
+            "title": "Appartement cosy avec jardin",
+            "cover": "https://images.unsplash.com/photo-1599423300746-b62533397364",
+            "pictures": [
+                "https://images.unsplash.com/photo-1599423300746-b62533397364",
+                "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
+                "https://images.unsplash.com/photo-1512917774080-9991f1c4c750"
+            ],
+            "description": "Appartement cosy avec jardin privatif, parfait pour les amoureux de la nature.",
+            "host": {
+                "name": "Pauline Garnier",
+                "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2"
+            },
+            "rating": "4",
+            "location": "Toulouse, France",
+            "equipments": [
+                "Jardin",
+                "Wi-fi",
+                "Cuisine équipée"
+            ],
+            "tags": [
+                "Cosy",
+                "Jardin",
+                "Nature"
+            ]
+        },
+        {
+            "id": "i6j7k8l9",
+            "title": "Chalet en montagne",
+            "cover": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
+            "pictures": [
+                "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
+                "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                "https://images.unsplash.com/photo-1505691723518-41cb372ffb9f"
+            ],
+            "description": "Chalet charmant en pleine montagne, pour un séjour dépaysant en hiver comme en été.",
+            "host": {
+                "name": "Martin Rousseau",
+                "picture": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde"
+            },
+            "rating": "5",
+            "location": "Chamonix, France",
+            "equipments": [
+                "Cheminée",
+                "Wi-fi",
+                "Cuisine équipée",
+                "Ski à proximité"
+            ],
+            "tags": [
+                "Chalet",
+                "Montagne",
+                "Nature"
+            ]
+        },
+        {
+            "id": "j7k8l9m0",
+            "title": "Appartement en bord de mer",
+            "cover": "https://images.unsplash.com/photo-1582719478171-8b00c4a1e188",
+            "pictures": [
+                "https://images.unsplash.com/photo-1582719478171-8b00c4a1e188",
+                "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
+            ],
+            "description": "Appartement lumineux en bord de mer, avec un accès direct à la plage.",
+            "host": {
+                "name": "Sophia Durant",
+                "picture": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe"
+            },
+            "rating": "4",
+            "location": "La Rochelle, France",
+            "equipments": [
+                "Balcon",
+                "Wi-fi",
+                "Cuisine équipée"
+            ],
+            "tags": [
+                "Bord de mer",
+                "Plage"
+            ]
+        },
+        {
+            "id": "k8l9m0n1",
+            "title": "Maison avec piscine et jardin",
+            "cover": "https://images.unsplash.com/photo-1576671087144-9b4a7d2233d1",
+            "pictures": [
+                "https://images.unsplash.com/photo-1576671087144-9b4a7d2233d1",
+                "https://images.unsplash.com/photo-1600585154340-be6161c4d5b4",
+                "https://images.unsplash.com/photo-1502672023488-70e25813eb80"
+            ],
+            "description": "Maison spacieuse avec jardin et piscine privée, idéale pour se détendre en famille.",
+            "host": {
+                "name": "Jean-Marc Petit",
+                "picture": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe"
+            },
+            "rating": "5",
+            "location": "Montpellier, France",
+            "equipments": [
+                "Piscine",
+                "Jardin",
+                "Wi-fi"
+            ],
+            "tags": [
+                "Maison",
+                "Piscine",
+                "Jardin"
+            ]
+        },
+        {
+            "id": "l9m0n1o2",
+            "title": "Appartement spacieux en centre-ville",
+            "cover": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+            "pictures": [
+                "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+                "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                "https://images.unsplash.com/photo-1519710164239-da123dc03ef4"
+            ],
+            "description": "Appartement spacieux et lumineux au cœur de la ville, proche de toutes les commodités.",
+            "host": {
+                "name": "Anaïs Bonnet",
+                "picture": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+            },
+            "rating": "4",
+            "location": "Strasbourg, France",
+            "equipments": [
+                "Wi-fi",
+                "Cuisine équipée",
+                "Télévision"
+            ],
+            "tags": [
+                "Centre-ville",
+                "Appartement"
+            ]
+        },
+        {
+            "id": "m0n1o2p3",
+            "title": "Cabane dans les bois",
+            "cover": "https://images.unsplash.com/photo-1581367815047-8f8431f1a228",
+            "pictures": [
+                "https://images.unsplash.com/photo-1581367815047-8f8431f1a228",
+                "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+                "https://images.unsplash.com/photo-1505692794401-6a7722d68a43"
+            ],
+            "description": "Cabane rustique dans les bois pour une expérience unique en pleine nature.",
+            "host": {
+                "name": "Julie Martin",
+                "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+            },
+            "rating": "3",
+            "location": "Vosges, France",
+            "equipments": [
+                "Cheminée",
+                "Cuisine équipée",
+                "Terrasse"
+            ],
+            "tags": [
+                "Cabane",
+                "Nature",
+                "Rustique"
+            ]
+        },
+            {
+                "id": "p3o2n1m0",
+                "title": "Loft moderne au centre-ville",
+                "cover": "https://images.unsplash.com/photo-1559599189-a09d9a6a94b6",
+                "pictures": [
+                    "https://images.unsplash.com/photo-1559599189-a09d9a6a94b6",
+                    "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+                    "https://images.unsplash.com/photo-1553456558-aff63285bddf"
+                ],
+                "description": "Loft spacieux et moderne, idéal pour explorer le centre-ville.",
+                "host": {
+                    "name": "Jean Pierre",
+                    "picture": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+                },
+                "rating": "4",
+                "location": "Paris, France",
+                "equipments": [
+                    "Wi-fi",
+                    "Cuisine équipée",
+                    "Lave-vaisselle"
+                ],
+                "tags": [
+                    "Loft",
+                    "Centre-ville"
+                ]
+            },
+            {
+                "id": "q3p2n1m0",
+                "title": "Maison avec vue sur la campagne",
+                "cover": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+                "pictures": [
+                    "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+                    "https://images.unsplash.com/photo-1505691723518-41cb372ffb9f",
+                    "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+                ],
+                "description": "Maison confortable en pleine campagne avec une vue imprenable.",
+                "host": {
+                    "name": "Margaux Lemoine",
+                    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+                },
+                "rating": "5",
+                "location": "Loire, France",
+                "equipments": [
+                    "Parking",
+                    "Wi-fi",
+                    "Barbecue"
+                ],
+                "tags": [
+                    "Campagne",
+                    "Vue"
+                ]
+            },
+            {
+                "id": "r3q2p1o0",
+                "title": "Appartement lumineux avec terrasse",
+                "cover": "https://images.unsplash.com/photo-1595526116070-85abf6ab07b5",
+                "pictures": [
+                    "https://images.unsplash.com/photo-1595526116070-85abf6ab07b5",
+                    "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                    "https://images.unsplash.com/photo-1600585154340-be6161c4d5b4"
+                ],
+                "description": "Appartement lumineux avec une grande terrasse, idéal pour se relaxer.",
+                "host": {
+                    "name": "Chloé Richard",
+                    "picture": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde"
+                },
+                "rating": "4",
+                "location": "Lyon, France",
+                "equipments": [
+                    "Terrasse",
+                    "Wi-fi",
+                    "Cuisine équipée"
+                ],
+                "tags": [
+                    "Appartement",
+                    "Lumineux"
+                ]
+            },
+            {
+                "id": "s3r2q1p0",
+                "title": "Studio calme en bord de mer",
+                "cover": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                "pictures": [
+                    "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                    "https://images.unsplash.com/photo-1505691723518-41cb372ffb9f",
+                    "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+                ],
+                "description": "Studio cosy avec vue sur la mer, idéal pour des vacances reposantes.",
+                "host": {
+                    "name": "Lucas Dupuis",
+                    "picture": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+                },
+                "rating": "3",
+                "location": "Biarritz, France",
+                "equipments": [
+                    "Vue sur mer",
+                    "Wi-fi",
+                    "Kitchenette"
+                ],
+                "tags": [
+                    "Studio",
+                    "Bord de mer"
+                ]
+            },
+            {
+                "id": "t3s2r1q0",
+                "title": "Chalet cosy en montagne",
+                "cover": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
+                "pictures": [
+                    "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
+                    "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                    "https://images.unsplash.com/photo-1582719478171-8b00c4a1e188"
+                ],
+                "description": "Chalet chaleureux avec vue sur les montagnes, idéal pour les amoureux de la nature.",
+                "host": {
+                    "name": "Paul Leroux",
+                    "picture": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe"
+                },
+                "rating": "5",
+                "location": "Annecy, France",
+                "equipments": [
+                    "Cheminée",
+                    "Parking",
+                    "Ski à proximité"
+                ],
+                "tags": [
+                    "Chalet",
+                    "Montagne"
+                ]
+            },
+            {
+                "id": "u3t2s1r0",
+                "title": "Appartement urbain avec vue sur la ville",
+                "cover": "https://images.unsplash.com/photo-1595526116070-85abf6ab07b5",
+                "pictures": [
+                    "https://images.unsplash.com/photo-1595526116070-85abf6ab07b5",
+                    "https://images.unsplash.com/photo-1580590989161-95abb0f3b2ec",
+                    "https://images.unsplash.com/photo-1570129477492-45c003edd2be"
+                ],
+                "description": "Appartement moderne avec une vue imprenable sur le centre-ville.",
+                "host": {
+                    "name": "Laura Perret",
+                    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+                },
+                "rating": "4",
+                "location": "Marseille, France",
+                "equipments": [
+                    "Wi-fi",
+                    "Cuisine équipée",
+                    "Lave-linge"
+                ],
+                "tags": [
+                    "Urbain",
+                    "Vue"
+                ]
+            },
+            {
+                "id": "v3u2t1s0",
+                "title": "Maison moderne avec piscine",
+                "cover": "https://images.unsplash.com/photo-1576671087144-9b4a7d2233d1",
+                "pictures": [
+                    "https://images.unsplash.com/photo-1576671087144-9b4a7d2233d1",
+                    "https://images.unsplash.com/photo-1505691723518-41cb372ffb9f",
+                    "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+                ],
+                "description": "Maison moderne et élégante avec piscine privée.",
+                "host": {
+                    "name": "Élise Dupont",
+                    "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2"
+                },
+                "rating": "5",
+                "location": "Toulon, France",
+                "equipments": [
+                    "Piscine",
+                    "Wi-fi",
+                    "Climatisation"
+                ],
+                "tags": [
+                    "Maison",
+                    "Piscine"
+                ]
+            },
+            {
+                "id": "w3v2u1t0",
+                "title": "Appartement cosy proche des parcs",
+                "cover": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
+                "pictures": [
+                    "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
+                    "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                    "https://images.unsplash.com/photo-1582719478171-8b00c4a1e188"
+                ],
+                "description": "Appartement lumineux et cosy, parfait pour les amateurs de nature.",
+                "host": {
+                    "name": "Nathalie Bertrand",
+                    "picture": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe"
+                },
+                "rating": "4",
+                "location": "Nantes, France",
+                "equipments": [
+                    "Wi-fi",
+                    "Lave-linge",
+                    "Proche parc"
+                ],
+                "tags": [
+                    "Cosy",
+                    "Nature"
+                ]
+            },
+            {
+                "id": "x3w2v1u0",
+                "title": "Studio confortable en banlieue",
+                "cover": "https://images.unsplash.com/photo-1600585154340-be6161c4d5b4",
+                "pictures": [
+                    "https://images.unsplash.com/photo-1600585154340-be6161c4d5b4",
+                    "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                    "https://images.unsplash.com/photo-1519710164239-da123dc03ef4"
+                ],
+                "description": "Studio confortable et bien situé pour des séjours tranquilles.",
+                "host": {
+                    "name": "Olivier Brun",
+                    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+                },
+                "rating": "3",
+                "location": "Lille, France",
+                "equipments": [
+                    "Wi-fi",
+                    "Télévision",
+                    "Parking"
+                ],
+                "tags": [
+                    "Studio",
+                    "Banlieue"
+                ]
+            },
+            {
+                "id": "y3x2w1v0",
+                "title": "Villa au bord de l'eau",
+                "cover": "https://images.unsplash.com/photo-1502672023488-70e25813eb80",
+                "pictures": [
+                    "https://images.unsplash.com/photo-1502672023488-70e25813eb80",
+                    "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+                    "https://images.unsplash.com/photo-1519710164239-da123dc03ef4"
+                ],
+                "description": "Villa luxueuse avec accès direct à la plage et piscine.",
+                "host": {
+                    "name": "Sophie Lamoureux",
+                    "picture": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+                },
+                "rating": "5",
+                "location": "Cannes, France",
+                "equipments": [
+                    "Piscine",
+                    "Accès plage",
+                    "Wi-fi"
+                ],
+                "tags": [
+                    "Villa",
+                    "Plage",
+                    "Luxueux"
+                ]
+            },
+                {
+                    "id": "z3y2x1w0",
+                    "title": "Cabane dans les arbres",
+                    "cover": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+                    "pictures": [
+                        "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+                        "https://images.unsplash.com/photo-1533873984034-096fbf567f78",
+                        "https://images.unsplash.com/photo-1557682250-334629a3184c"
+                    ],
+                    "description": "Une cabane unique perchée dans les arbres, parfaite pour une escapade romantique.",
+                    "host": {
+                        "name": "Camille Forestier",
+                        "picture": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+                    },
+                    "rating": "4",
+                    "location": "Provence, France",
+                    "equipments": [
+                        "Vue panoramique",
+                        "Wi-fi",
+                        "Cuisine"
+                    ],
+                    "tags": [
+                        "Nature",
+                        "Cabane"
+                    ]
+                },
+                {
+                    "id": "a4z3y2x1",
+                    "title": "Penthouse luxueux avec vue mer",
+                    "cover": "https://images.unsplash.com/photo-1531937986320-4a24dbf8f7a0",
+                    "pictures": [
+                        "https://images.unsplash.com/photo-1531937986320-4a24dbf8f7a0",
+                        "https://images.unsplash.com/photo-1550258987-190a2d41a8ba",
+                        "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+                    ],
+                    "description": "Penthouse de luxe offrant une vue à 360° sur la mer.",
+                    "host": {
+                        "name": "Louis Bertrand",
+                        "picture": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe"
+                    },
+                    "rating": "5",
+                    "location": "Nice, France",
+                    "equipments": [
+                        "Vue sur mer",
+                        "Terrasse",
+                        "Piscine"
+                    ],
+                    "tags": [
+                        "Penthouse",
+                        "Luxueux"
+                    ]
+                },
+                {
+                    "id": "b5a4z3y2",
+                    "title": "Appartement scandinave au coeur de la ville",
+                    "cover": "https://images.unsplash.com/photo-1578894387275-71928cc48590",
+                    "pictures": [
+                        "https://images.unsplash.com/photo-1578894387275-71928cc48590",
+                        "https://images.unsplash.com/photo-1505691723518-41cb372ffb9f",
+                        "https://images.unsplash.com/photo-1600585154340-be6161c4d5b4"
+                    ],
+                    "description": "Appartement chaleureux au design scandinave, idéalement situé.",
+                    "host": {
+                        "name": "Emma Durand",
+                        "picture": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde"
+                    },
+                    "rating": "4",
+                    "location": "Strasbourg, France",
+                    "equipments": [
+                        "Wi-fi",
+                        "Cuisine équipée",
+                        "Lave-linge"
+                    ],
+                    "tags": [
+                        "Scandinave",
+                        "Ville"
+                    ]
+                },
+                {
+                    "id": "c6b5a4z3",
+                    "title": "Maison en bord de lac",
+                    "cover": "https://images.unsplash.com/photo-1550966871-3edda5fa4e0d",
+                    "pictures": [
+                        "https://images.unsplash.com/photo-1550966871-3edda5fa4e0d",
+                        "https://images.unsplash.com/photo-1533777324565-a040eb52fac1",
+                        "https://images.unsplash.com/photo-1522706604294-2f94c3c10090"
+                    ],
+                    "description": "Maison spacieuse en bord de lac, idéale pour les amateurs de nature.",
+                    "host": {
+                        "name": "Lucie Martin",
+                        "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2"
+                    },
+                    "rating": "5",
+                    "location": "Annecy, France",
+                    "equipments": [
+                        "Vue sur lac",
+                        "Barbecue",
+                        "Parking"
+                    ],
+                    "tags": [
+                        "Nature",
+                        "Lac"
+                    ]
+                },
+                {
+                    "id": "d7c6b5a4",
+                    "title": "Villa familiale avec grand jardin",
+                    "cover": "https://images.unsplash.com/photo-1556912996-06d8c9d10857",
+                    "pictures": [
+                        "https://images.unsplash.com/photo-1556912996-06d8c9d10857",
+                        "https://images.unsplash.com/photo-1576671087144-9b4a7d2233d1",
+                        "https://images.unsplash.com/photo-1523206489230-c012f05b04d0"
+                    ],
+                    "description": "Villa parfaite pour les familles, avec grand jardin et aire de jeux.",
+                    "host": {
+                        "name": "Thomas Caron",
+                        "picture": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+                    },
+                    "rating": "4",
+                    "location": "Bordeaux, France",
+                    "equipments": [
+                        "Jardin",
+                        "Aire de jeux",
+                        "Wi-fi"
+                    ],
+                    "tags": [
+                        "Famille",
+                        "Jardin"
+                    ]
+                },
+                {
+                    "id": "e8d7c6b5",
+                    "title": "Loft industriel avec mezzanine",
+                    "cover": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                    "pictures": [
+                        "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                        "https://images.unsplash.com/photo-1505691723518-41cb372ffb9f",
+                        "https://images.unsplash.com/photo-1600585154340-be6161c4d5b4"
+                    ],
+                    "description": "Loft spacieux avec une décoration industrielle et une mezzanine.",
+                    "host": {
+                        "name": "Sophie Dupuis",
+                        "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+                    },
+                    "rating": "5",
+                    "location": "Lille, France",
+                    "equipments": [
+                        "Mezzanine",
+                        "Wi-fi",
+                        "Climatisation"
+                    ],
+                    "tags": [
+                        "Loft",
+                        "Industriel"
+                    ]
+                },
+                {
+                    "id": "f9e8d7c6",
+                    "title": "Petit chalet rustique",
+                    "cover": "https://images.unsplash.com/photo-1576671087144-9b4a7d2233d1",
+                    "pictures": [
+                        "https://images.unsplash.com/photo-1576671087144-9b4a7d2233d1",
+                        "https://images.unsplash.com/photo-1505691723518-41cb372ffb9f",
+                        "https://images.unsplash.com/photo-1519710164239-da123dc03ef4"
+                    ],
+                    "description": "Petit chalet rustique au milieu de la nature, parfait pour une déconnexion.",
+                    "host": {
+                        "name": "Marc Lefèvre",
+                        "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2"
+                    },
+                    "rating": "3",
+                    "location": "Alpes, France",
+                    "equipments": [
+                        "Cheminée",
+                        "Parking",
+                        "Vue montagne"
+                    ],
+                    "tags": [
+                        "Chalet",
+                        "Rustique"
+                    ]
+                },
+                {
+                    "id": "g0f9e8d7",
+                    "title": "Studio moderne proche du centre",
+                    "cover": "https://images.unsplash.com/photo-1600585154340-be6161c4d5b4",
+                    "pictures": [
+                        "https://images.unsplash.com/photo-1600585154340-be6161c4d5b4",
+                        "https://images.unsplash.com/photo-1576671087144-9b4a7d2233d1",
+                        "https://images.unsplash.com/photo-1531937986320-4a24dbf8f7a0"
+                    ],
+                    "description": "Studio moderne et bien équipé, parfait pour un séjour en ville.",
+                    "host": {
+                        "name": "Laura Garnier",
+                        "picture": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde"
+                    },
+                    "rating": "4",
+                    "location": "Marseille, France",
+                    "equipments": [
+                        "Wi-fi",
+                        "Kitchenette",
+                        "Proche transports"
+                    ],
+                    "tags": [
+                        "Moderne",
+                        "Studio"
+                    ]
+                },
+                {
+                    "id": "h1g0f9e8",
+                    "title": "Maison de campagne avec piscine",
+                    "cover": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
+                    "pictures": [
+                        "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
+                        "https://images.unsplash.com/photo-1505691723518-41cb372ffb9f",
+                        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
+                    ],
+                    "description": "Maison de campagne spacieuse avec piscine et grand jardin.",
+                    "host": {
+                        "name": "Pierre Martin",
+                        "picture": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe"
+                    },
+                    "rating": "5",
+                    "location": "Avignon, France",
+                    "equipments": [
+                        "Piscine",
+                        "Jardin",
+                        "Wi-fi"
+                    ],
+                    "tags": [
+                        "Campagne",
+                        "Nature"
+                    ]
+                },
+                {
+                    "id": "i2h1g0f9",
+                    "title": "Chambre avec balcon en plein centre",
+                    "cover": "https://images.unsplash.com/photo-1550966871-3edda5fa4e0d",
+                    "pictures": [
+                        "https://images.unsplash.com/photo-1550966871-3edda5fa4e0d",
+                        "https://images.unsplash.com/photo-1600585154340-be6161c4d5b4",
+                        "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+                    ],
+                    "description": "Chambre confortable avec balcon donnant sur le centre-ville.",
+                    "host": {
+                        "name": "Clara Petit",
+                        "picture": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+                    },
+                    "rating": "3",
+                    "location": "Toulouse, France",
+                    "equipments": [
+                        "Balcon",
+                        "Proche restaurants",
+                        "Wi-fi"
+                    ],
+                    "tags": [
+                        "Centre-ville",
+                        "Confortable"
+                    ]
+                }
+]            
+    
+

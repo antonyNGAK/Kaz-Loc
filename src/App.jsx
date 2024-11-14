@@ -1,5 +1,8 @@
 import React from 'react'
+import { LocationProvider } from './components/LocationContext'
+import Footer from './components/Footer'
 import { Outlet } from 'react-router-dom'
+import NavBar from './components/NavBar';
 
 
 
@@ -8,7 +11,9 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <Outlet />
+      <LocationProvider>
+        <Outlet />
+      </LocationProvider>
       <Footer />
     </>
   )
