@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams, Navigate } from 'react-router-dom'
 import { useDataLocation } from '../components/LocationContext'
+import Carousel from '../components/Carousel'
 import Collapse from '../components/Collapse'
 import '../styles/scss pages/location.scss'
 import '../styles/scss components/carousel.scss'
@@ -29,7 +30,8 @@ const ActiveLocation = () => {
       {
         logement ? (
           <main className="active-location">
-            <div className="active-location__container">
+            <div className="active-location__carousel">
+            <Carousel images = {logement.pictures} alt = {logement.title} />
             <div className="active-location__title">
               <section className="active-location__name">
                 <h2>{logement.title}</h2>

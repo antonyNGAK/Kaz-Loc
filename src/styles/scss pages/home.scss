@@ -1,4 +1,6 @@
 @import '../scss components/NavBar.scss';
+@import '../scss components/banner.scss';
+@import '../scss components/cards.scss';
 @import '../scss utils/var.scss';
 
 
@@ -14,4 +16,9 @@
         border-radius: $default-border-radius;
         padding: 56px 50px 43px;
       }
+
+}
+
+.intro {
+  text-align: center;
 }

@@ -1,0 +1,21 @@
+@import '../scss utils/var.scss';
+
+.about {
+  margin: $default-margin;
+
+  &__content {
+    @include flex-column;
+    margin: 38px 108px;
+    gap: 20px;
+  }
+
+  @media screen and (max-width: $desktop) {
+    &__content {
+      margin: 38px 0;
+    }
+  }
+
+  @media screen and (max-width: $mobile) {
+    margin:$default-mobile-margin;
+  }
+}

@@ -1,0 +1,60 @@
+@import '../scss utils/var.scss';
+
+.container {
+  & .collapse__bar {
+    @include flex-space-between;
+    border-radius: $collapse-border-radius;
+    background-color: $primary-color;
+    color: $color-white;
+    padding: 10px 15px;
+    height: auto;
+
+    & .title {
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    & .chevron {
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+      transition-duration: 0.5s; 
+    }
+  }
+
+  .container__content {
+    background-color: $secondary-color;
+    border-radius: $collapse-border-radius;
+    line-height: 1.5;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+
+    & .content__inner {
+      padding: 20px;
+    }
+  }
+
+  // On définit une max-height volontairement supérieur à la hauteur de la div pour éviter les problèmes de transition
+  .container__content.open {
+    max-height: 1000px;
+  }
+
+  @media screen and (max-width: $mobile) {
+    .collapse__bar {
+      padding: 10px;
+
+      & .title {
+        font-size: $font-size-mobile;
+      }
+
+      & .chevron {
+        width: 16px;
+        height: 16px;
+      }
+    }
+    .container__content {
+      font-size: $font-size-mobile;
+    }
+  }
+}

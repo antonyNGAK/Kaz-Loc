@@ -1,0 +1,32 @@
+@import '../scss utils/var.scss';
+
+.footer {
+  @include flex-center;
+  height: 209px;
+  background-color: $footer-background;
+  color: $color-white;
+  overflow: hidden;
+
+  &__container {
+    @include flex-space-between;
+    flex-direction: column;
+    height: 114px;
+    font-size: 24px;
+    padding: 66px 464px 29px 463px;
+    flex-shrink: 0;
+  }
+
+  &__logo {
+    width: 122px;
+    height: 39px;
+  }
+}
+
+@media (max-width: $mobile) {
+  .footer__container {
+    padding: 66px 120px 58px 121px;
+    font-size: 12px;
+    justify-content: center;
+    line-height: 2;
+  }
+}
