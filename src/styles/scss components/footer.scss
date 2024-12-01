@@ -1,32 +1,42 @@
-@import '../scss utils/var.scss';
-
 .footer {
-  @include flex-center;
-  height: 209px;
-  background-color: $footer-background;
-  color: $color-white;
-  overflow: hidden;
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-  &__container {
-    @include flex-space-between;
-    flex-direction: column;
-    height: 114px;
-    font-size: 24px;
-    padding: 66px 464px 29px 463px;
-    flex-shrink: 0;
+  &__links {
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+
+      li a {
+        text-decoration: none;
+        color: #ccc;
+        font-size: 0.9rem;
+        transition: color 0.3s;
+
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
   }
 
-  &__logo {
-    width: 122px;
-    height: 39px;
-  }
-}
+  &__social {
+    display: flex;
+    gap: 1rem;
 
-@media (max-width: $mobile) {
-  .footer__container {
-    padding: 66px 120px 58px 121px;
-    font-size: 12px;
-    justify-content: center;
-    line-height: 2;
+    a {
+      color: #ccc;
+      font-size: 1.5rem;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #fff;
+      }
+    }
   }
 }

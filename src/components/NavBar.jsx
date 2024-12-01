@@ -17,11 +17,9 @@ const NavBar = () => {
         <a href="/">Accueil</a>
         <a href="/recherche">Recherche</a>
         <a href="/about">A Propos</a>
+        <a href="/contact">Contact</a>
       </div>
       <div className="navbar-actions">
-        <button className="search-button" onClick={() => alert('Recherche en cours')}>
-          🔍
-        </button>
         <button className="login-button">Connexion</button>
       </div>
     </nav>

@@ -48,6 +48,12 @@ const ActiveLocation = () => {
               </div>
             </div>           
           </div>
+          <div className="active-location__ranking">
+              <div className="active-location__host">
+                <p>{logement.host.name}</p>
+                <img src={logement.host.picture} alt={logement.host.name} />
+              </div>
+              </div>
           <div className="active-location__description">
             <Collapse //Détail sur la description
               key={`${id}-description`}

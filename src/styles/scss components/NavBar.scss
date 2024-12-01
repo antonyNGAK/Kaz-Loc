@@ -9,6 +9,7 @@ $box-shadow-color: rgba(0, 0, 0, 0.1);
 // Styles de la barre de navigation
 .navbar {
   margin: 0;
+  text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,6 +34,7 @@ $box-shadow-color: rgba(0, 0, 0, 0.1);
       text-decoration: none;
       color: $text-color;
       font-size: 1rem;
+      text-align: center;
 
       &:hover {
         text-decoration: underline;

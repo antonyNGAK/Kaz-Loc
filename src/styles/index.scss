@@ -1,0 +1,16 @@
+@import '../styles/scss utils/refresh.scss';
+@import '../styles/scss utils/var.scss';
+@import '../styles/scss components/NavBar.scss';
+@import '../styles/scss components/footer.scss';
+
+
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  background-color: #fff;
+  color: black;
+  overflow: scroll;
+}

@@ -3,11 +3,11 @@
 		"id": "a1b2c3d4",
 		"title": "Appartement moderne avec vue",
 		"price": 85,
-		"cover": "https://images.unsplash.com/photo-1600585154340-be6161c4d5b4?w=400&h=300&fit=crop",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
 		"pictures": [
-			"https://images.unsplash.com/photo-1600585154340-be6161c4d5b4?w=400&h=300&fit=crop",
-			"https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=400&h=300&fit=crop",
-			"https://images.unsplash.com/photo-1560185007-b7d5b24a1099?w=400&h=300&fit=crop"
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg"
 		],
 		"description": "Appartement lumineux avec une superbe vue sur la ville. Idéal pour les voyages d'affaires ou les séjours touristiques.",
 		"host": {
@@ -31,9 +31,9 @@
 		"id": "b2c3d4e5",
 		"title": "Loft industriel en centre-ville",
 		"price": 120,
-		"cover": "https://images.unsplash.com/photo-1505691723518-34d345f31a70?w=400&h=300&fit=crop",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
 		"pictures": [
-			"https://images.unsplash.com/photo-1505691723518-34d345f31a70?w=400&h=300&fit=crop",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg",
 			"https://images.unsplash.com/photo-1559599073-8b60e3428b50?w=400&h=300&fit=crop",
 			"https://images.unsplash.com/photo-1590650044274-aca68bdb5b02?w=400&h=300&fit=crop"
 		],
@@ -87,11 +87,11 @@
 		"id": "d4e5f6g7",
 		"title": "Maison chaleureuse à la campagne",
 		"price": 95,
-		"cover": "https://images.unsplash.com/photo-1550966871-3ed59a9f9d00?w=400&h=300&fit=crop",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
 		"pictures": [
-			"https://images.unsplash.com/photo-1550966871-3ed59a9f9d00?w=400&h=300&fit=crop",
-			"https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=400&h=300&fit=crop",
-			"https://images.unsplash.com/photo-1505691723518-34d345f31a70?w=400&h=300&fit=crop"
+            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+			"https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=400&h=300&fit=crop"
 		],
 		"description": "Maison confortable entourée de nature. Idéal pour une escapade en famille ou entre amis.",
 		"host": {
@@ -135,9 +135,11 @@
 		"id": "i5j6k7l8",
 		"title": "Loft industriel avec terrasse",
 		"price": 110,
-		"cover": "https://images.unsplash.com/photo-1600585154273-0f8e597f6cc1?w=400&h=300&fit=crop",
+		"cover": 
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-2.jpg",
 		"pictures": [
-			"https://images.unsplash.com/photo-1600585154273-0f8e597f6cc1?w=400&h=300&fit=crop",
+			
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-2.jpg",
 			"https://images.unsplash.com/photo-1600585154273-0f8e597f6cc2?w=400&h=300&fit=crop",
 			"https://images.unsplash.com/photo-1600585154273-0f8e597f6cc3?w=400&h=300&fit=crop"
 		],
@@ -153,11 +155,11 @@
 	},
 	{
 		"id": "m9n0o1p2",
-		"title": "Cabane au bord d’un lac",
+		"title": "Studio moderne; vue sur la ville",
 		"price": 90,
-		"cover": "https://images.unsplash.com/photo-1601066527837-cad9f015729d?w=400&h=300&fit=crop",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
 		"pictures": [
-			"https://images.unsplash.com/photo-1601066527837-cad9f015729d?w=400&h=300&fit=crop",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
 			"https://images.unsplash.com/photo-1601066527837-cad9f015729e?w=400&h=300&fit=crop",
 			"https://images.unsplash.com/photo-1601066527837-cad9f015729f?w=400&h=300&fit=crop"
 		],
@@ -193,12 +195,12 @@
 	},
 	{
 		"id": "u7v8w9x0",
-		"title": "Studio avec jardin privatif",
+		"title": "Chambre élegante et chaleureuse",
 		"price": 85,
-		"cover": "https://images.unsplash.com/photo-1600585154273-0f8e597f6cc0?w=400&h=300&fit=crop",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-3.jpg",
 		"pictures": [
-			"https://images.unsplash.com/photo-1600585154273-0f8e597f6cc0?w=400&h=300&fit=crop",
-			"https://images.unsplash.com/photo-1600585154273-0f8e597f6cc4?w=400&h=300&fit=crop",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-3.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-3.jpg",
 			"https://images.unsplash.com/photo-1600585154273-0f8e597f6cc5?w=400&h=300&fit=crop"
 		],
 		"description": "Studio charmant avec un jardin privatif pour profiter du calme et de la nature.",
