@@ -1,17 +1,13 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-
-
-
+import { Outlet } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 
 const App = () => {
   return (
-    <>
-      <NavBar />
+    <div className="app-container">
       <Outlet />
-      <Footer />
-    </>
-  )
-}
+      <ToastContainer />
+    </div>
+  );
+};
 
 export default App;

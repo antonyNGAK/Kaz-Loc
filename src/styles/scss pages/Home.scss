@@ -1,0 +1,57 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #ac3539, #e66375);
+  color: white;
+  padding: 10px 20px;
+
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+
+    li {
+      display: inline;
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        transition: color 0.3s;
+
+        &:hover {
+          color: #f1f1f1;
+        }
+      }
+    }
+  }
+}
+
+.home-content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+
+  h1 {
+    font-size: 36px;
+    color: #ac3539;
+  }
+
+  p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}
