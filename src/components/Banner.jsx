@@ -15,7 +15,11 @@ const Banner = ({ title, BannerImage}) => {
         <div className = "banner">
             <div className="banner__overlay"></div>
             <img src= {BannerImage} alt="banner" className="banner__img" />
-            <h2 className="banner__title">{title}</h2>
+            <h2 className='banner__title'>
+                <p>Bienvenu sur Kaz'Loc</p>
+                <p>Votre site de réservation de logement entre particulier.</p>
+            </h2>
+            
         </div>
     )
 }

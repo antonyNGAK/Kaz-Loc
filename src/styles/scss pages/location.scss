@@ -24,6 +24,7 @@
     @include flex-column;
     justify-content: space-between;
     line-height: 1.2;
+    height: 50px;
 
     .active-location__name {
       font-weight: 500;

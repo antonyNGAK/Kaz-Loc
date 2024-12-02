@@ -7,7 +7,7 @@ import '../styles/scss components/NavBar.scss';
  * Composant NavBar pour afficher la barre de navigation avec une barre de recherche dynamique
  * @returns {JSX.Element} Le composant
  */
-const NavBar = () => {
+const NavBarConnect = () => {
   const [isSearchVisible, setSearchVisible] = useState(false); // État pour afficher/masquer la barre de recherche
   const [searchInput, setSearchInput] = useState(''); // État pour le contenu de la recherche
   const navigate = useNavigate(); // Pour rediriger l'utilisateur
@@ -31,7 +31,7 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-      <img src={Logo} alt="logo" className="logoSite" />
+        <img src={Logo} alt="logo" className="logoSite" />
       </div>
       <div className="navbar-links">
         <a href="/">Accueil</a>
@@ -46,7 +46,7 @@ const NavBar = () => {
         <a href="/contact">Contact</a>
       </div>
       <div className="navbar-actions">
-        <a href="/login" className="login-button">Connexion</a>
+        <a href="/profile" className="login-button">Profil</a>
       </div>
       {/* Barre de recherche */}
       {isSearchVisible && (
@@ -69,4 +69,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default NavBarConnect;
