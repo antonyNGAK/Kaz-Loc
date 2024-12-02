@@ -1,4 +1,4 @@
-import aboutPageImage from "../assets/imgContact.png";
+import contactPageImage from "../assets/imgContact.png";
 import "../styles/scss pages/Contact.scss";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -17,11 +17,11 @@ const Contact = () => {
       </div>
 
       <div className="container">
-        <section className="about">
-          <div className="about-img">
-            <img src={aboutPageImage} alt="MonImg" />
+        <section className="contact">
+          <div className="contact-img">
+            <img src={contactPageImage} alt="MonImg" />
           </div>
-          <div className="about-content">
+          <div className="contact-content">
             <div className="contactInfo">
               <div className="boxContact">
                 <div className="iconContact">

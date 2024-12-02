@@ -1,4 +1,4 @@
-import Logo from "../assets/logo_site.png";
+import Logo from "../assets/logo-img.png";
 import "../styles/scss components/Footer.scss";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";

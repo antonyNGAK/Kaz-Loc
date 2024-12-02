@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import "../styles/scss pages/Register.scss";
 import InputField from "../components/InputField";
-import { CiMail, CiLock, CiUser } from "react-icons/ci";
 import LoginLink from "../components/LoginLink";
 import TermsWrapper from "../components/TermsWrapper";
+import { CiMail, CiLock, CiUser } from "react-icons/ci";
 import { createUserWithEmailAndPassword } from "firebase/auth";
-import { auth, db } from "../components/Firebase"; // eslint-disable-line no-unused-vars
+import { auth, db } from "../components/Firebase";
 import { setDoc, doc } from "firebase/firestore";
+import { toast } from "react-toastify";
 
 const Register = () => {
   const [email, setEmail] = useState("");
@@ -14,6 +15,8 @@ const Register = () => {
   const [name, setName] = useState("");
 
   const handleSubmit = async (e) => {
+    e.preventDefault(); // Gérer la soumission du formulaire
+
     try {
       await createUserWithEmailAndPassword(auth, email, password);
       const user = auth.currentUser;
@@ -24,13 +27,14 @@ const Register = () => {
           name: name,
         });
       }
-      console.log("Votre compte a été avec succès !");
+      console.log("Votre compte a été crée avec succès !");
+      toast.success("Inscription réussie !", {
+        position: "top-center",
+      });
     } catch (error) {
       console.log(error.message);
+      toast.success(error.message, { position: "bottom-center" });
     }
-
-    e.preventDefault();
-    // Gérer la soumission du formulaire
   };
 
   return (
@@ -41,24 +45,28 @@ const Register = () => {
         <InputField
           type="text"
           placeholder="Entrez votre nom"
+          value={name}
           onChange={(e) => setName(e.target.value)}
           Icon={CiUser}
         />
         <InputField
           type="email"
           placeholder="Entrez votre adresse email"
+          value={email}
           onChange={(e) => setEmail(e.target.value)}
           Icon={CiMail}
         />
         <InputField
           type="password"
           placeholder="Entrez votre mot de passe"
+          value={password}
           onChange={(e) => setPassword(e.target.value)}
           Icon={CiLock}
         />
         <InputField
           type="password"
           placeholder="Confirmez votre mot de passe"
+          value={password}
           onChange={(e) => setPassword(e.target.value)}
           Icon={CiLock}
         />

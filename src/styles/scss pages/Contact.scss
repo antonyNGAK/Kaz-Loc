@@ -50,13 +50,13 @@ body {
   text-align: justify;
 }
 
-.about {
+.contact {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 
-  .about-img {
+  .contact-img {
     flex: 1;
     margin-right: 40px;
     overflow: hidden;
@@ -74,7 +74,7 @@ body {
     }
   }
 
-  .about-content {
+  .contact-content {
     flex: 1;
     animation: fadeInUp 2s ease;
 
@@ -203,16 +203,16 @@ body {
     padding: 0px;
   }
 
-  .about {
+  .contact {
     padding: 20px;
     flex-direction: column;
 
-    .about-img {
+    .contact-img {
       margin-right: 0;
       margin-bottom: 20px;
     }
 
-    .about-content {
+    .contact-content {
       p {
         padding: 0px;
         font-size: 16px;
